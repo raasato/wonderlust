@@ -38,13 +38,11 @@
                 <h3>Introduction</h3>
                 <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.</p>
                 <div>
-                <!--Responsive Image for Art Direction
-                    images/majorca-beach-square-s.jpg
-                    images/majorca-beach-vertical-m.jpg
-                    images/majorca-beach-horizontal-l.jpg
-
-                    404px, 920px, 1280px
-                    -->
+                    <picture>
+                        <source srcset="images/majorca-beach-square-s.jpg" alt="majorca beach">
+                        <source srcset="images/majorca-beach-vertical-m.jpg" media="(min-width: 920px)">
+                        <source srcset="images/majorca-beach-horizontal-l.jpg" media="(min-width: 1280px)">
+                    </picture>
                     <small>Photo by <a href="https://unsplash.com/@charliefirth?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Charlie Firth</a> on <a href="https://unsplash.com/photos/sea-waves-crashing-on-shore-during-sunset-HQJIQjXq1HI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
                 </div>
             </section>
@@ -90,13 +88,8 @@
             <section id="testimonials">
                 <h3>Testimonials</h3>
                 <section>
-                    <!--Responsive Image for resolution switching
-                        images/miranda-blake-L.png" 
-                        images/miranda-blake-S.png 404w
-                        images/miranda-blake-M.png 920w
-                        images/miranda-blake-L.png 1280w
-                    -->
-                        <div>
+                    <img src="images/miranda-blake-L.png" srcset="images/miranda-blake-S.png 404w, images/miranda-blake-M.png 920w, images/miranda-blake-L.png 1280w" sizes="(max-width: 404px) 404px, (max-width: 920px) 920px, 1280px" alt="Miranda Blake">
+                    <div>
                         <h4>Miranda Blake</h4>
                         <dl>
                             <dt>Traveling From:</dt>
@@ -106,13 +99,8 @@
                     </div>
                 </section>
                 <section>
-                    <!--Responsive Image for resolution switching
-                        images/max-winter-L.png
-                        images/max-winter-S.png 404w
-                        images/max-winter-M.png 920w
-                        images/max-winter-L.png 1280w
-                    -->
-                        <div>
+                    <img src="images/max-winter-L.png" srcset="images/max-winter-S.png 404w, images/max-winter-M.png 920w, images/max-winter-L.png 1280w" sizes="(max-width: 404px) 404px, (max-width: 920px), 920px, 1280px" alt="Max Winter">
+                    <div>
                         <h4>Max Winter</h4>
                         <dl>
                             <dt>Traveling From:</dt>
@@ -122,12 +110,7 @@
                     </div>
                 </section>
                 <section>
-                    <!--Responsive Image for resolution switching
-                        images/ines-villegoes-L.png
-                        images/ines-villegoes-S.png 404w
-                        images/ines-villegoes-M.png 920w
-                        images/ines-villegoes-L.png 1280w 
-                    -->
+                    <img src="images/ines-villegoes-L.png" srcset="images/ines-villegoes-S.png 404w, images/ines-villegoes-M.png 920w, images/ines-villegoes-L.png 1280w" sizes="(max-width: 404px) 404px, (max-width: 920px) 920px, 1280px" alt="Ines Villegoes">
                     <div>
                         <h4>Inés Villegoes</h4>
                         <dl>
@@ -138,13 +121,8 @@
                     </div>
                 </section>
                 <section>
-                    <!--Responsive Image for resolution switching
-                        images/carmen-lorenzo-L.png
-                        images/carmen-lorenzo-S.png 404w
-                        images/carmen-lorenzo-M.png 920w
-                        images/carmen-lorenzo-L.png 1280w
-                    -->
-                        <div>
+                    <img src="images/carmen-lorenzo-L.png" srcset="images/carmen-lorenzo-S.png 404w, images/carmen-lorenzo-M.png 920w, images/carmen-lorenzo-L.png 1280w" sizes="(max-width: 404px) 404px, (max-width: 920px) 920px, 1280px" alt="Carmen Lorenzo">
+                    <div>
                         <h4>Carmen Lorenzo</h4>
                         <dl>
                             <dt>Traveling From:</dt>
