@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Robynne Asato">
+    <link rel="stylesheet" href="styles.css">
     <title>Wonderlust Travel- Destination Majorca</title>
 </head>
 <body>
@@ -28,7 +29,7 @@
             <li><a href="#">Destinations</a></li>
             <li><a href="#">Inspirations</a></li>
             <li><a href="#">Special</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
         </ul>
     </nav>
     <main id="main-content">
@@ -39,9 +40,9 @@
                 <p>Imagine an island with turquoise blue waters, secret coves, soft golden sands, lush green foliage, rugged mountains, picturesque villages and a vibrant capital city. The island and its capital, Palma, are overflowing with character, while its beaches are famous all around the world, making it one of the most sought-after summer destinations.</p>
                 <div>
                     <picture>
-                        <source srcset="images/majorca-beach-square-s.jpg" alt="majorca beach">
-                        <source srcset="images/majorca-beach-vertical-m.jpg" media="(min-width: 920px)">
                         <source srcset="images/majorca-beach-horizontal-l.jpg" media="(min-width: 1280px)">
+                        <source srcset="images/majorca-beach-vertical-m.jpg" media="(min-width: 920px)">
+                        <img src="images/majorca-beach-square-s.jpg" alt="majorca beach">
                     </picture>
                     <small>Photo by <a href="https://unsplash.com/@charliefirth?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Charlie Firth</a> on <a href="https://unsplash.com/photos/sea-waves-crashing-on-shore-during-sunset-HQJIQjXq1HI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></small>
                 </div>
@@ -99,7 +100,7 @@
                     </div>
                 </section>
                 <section>
-                    <img src="images/max-winter-L.png" srcset="images/max-winter-S.png 404w, images/max-winter-M.png 920w, images/max-winter-L.png 1280w" sizes="(max-width: 404px) 404px, (max-width: 920px), 920px, 1280px" alt="Max Winter">
+                    <img src="images/max-winter-L.png" srcset="images/max-winter-S.png 404w, images/max-winter-M.png 920w, images/max-winter-L.png 1280w" sizes="(max-width: 404px) 404px, (max-width: 920px) 920px, 1280px" alt="Max Winter">
                     <div>
                         <h4>Max Winter</h4>
                         <dl>
@@ -190,8 +191,6 @@
                 </section>
             </section>
         </article>
-    </main>
-    <footer>
         <section id="contact-us">
             <h2>Contact Us</h2>
             <span id="required">(*required)</span>
@@ -256,6 +255,8 @@
                 <input type="submit" id="submit" name="submit">
             </form>
         </section>
+    </main>
+    <footer>
         <section id="legal">
             <h2>Legal</h2>
             <small>Copyright 2021 Wonderlust</small>
